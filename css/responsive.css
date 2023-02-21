@@ -13,8 +13,12 @@
     .header__top__inner {
         gap: 30px;
     }
-    .header-logo {
-        width: 140px;
+    .logo h2 {
+        font-size: 27px;
+        margin: 0 0 5px;
+    }
+    .logo p {
+        font-size: 10px;
     }
     .default-button {
         min-height: 45px;
@@ -31,7 +35,7 @@
         font-size: 18px;
     }
     .header__main__outer {
-        padding: 10px 0;
+        padding: 20px 0;
     }
 
     

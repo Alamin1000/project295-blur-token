@@ -1,12 +1,13 @@
 /*-----------------------------------=========Main-Style-Sheet=========----------------------------------------*/
 
 
-@import url('https://fonts.googleapis.com/css2?family=Mako&family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mako&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 :root {
   --theme__color1: #D91A97;
   --background: #121328;
   --montserrat: 'Montserrat', sans-serif;
   --mako: 'Mako', sans-serif;
+  --martel-sans: 'Martel Sans', sans-serif;
 }
 *,::before,::after {
   box-sizing: border-box;
@@ -132,7 +133,7 @@ main {
 }
 
 .header__main__outer {
-  padding: 15px 0;
+  padding:30px 0;
 }
 .header__main {
   display: flex;
@@ -140,11 +141,29 @@ main {
   justify-content: space-between;
 } 
 .header-logo {
-  width: 175px;
   display: block;
 }
-.header-logo img {
-
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-family: var(--martel-sans);
+}
+.logo h2 {
+  font-size: 33.1px;
+  margin: 0 0 8px;
+  line-height: 1;
+  color: #fff;
+  font-weight: 800;
+}
+.logo p {
+  font-size: 12.81px;
+  line-height: 1;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 600;
 }
 .hr-button {
 
