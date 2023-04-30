@@ -1,6 +1,17 @@
 
 
-@media (max-width: 1399px) {
+@media (max-width: 1499px) {
+    .hero-section {
+	padding: 40px 0 45px;
+}.modal-body h2 {
+	font-size: 25px; 
+	max-width: 300px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}.success-icon {
+	font-size: 60px; 
+	margin-bottom: 14px; 
+}
     .header__top__inner p {
         font-size: 14px;
     }
@@ -8,10 +19,10 @@
         font-size: 14px;
     }
     .header__top {
-        padding: 13px;
+        padding: 12px;
     }
     .header__top__inner {
-        gap: 30px;
+        gap: 27px;
     }
     .logo h2 {
         font-size: 27px;
@@ -21,9 +32,9 @@
         font-size: 10px;
     }
     .default-button {
-        min-height: 45px;
-        padding: 4px 25px;
-        font-size: 16px;
+        min-height: 42px;
+        padding: 4px 22px;
+        font-size: 15px;
         gap: 10px;
         border-radius: 4px;
     }
@@ -32,7 +43,7 @@
         font-size: 13px;
     }
     .default-button .arr-r {
-        font-size: 18px;
+        font-size: 16px;
     }
     .header__main__outer {
         padding: 20px 0;
@@ -40,11 +51,13 @@
 
     
     .h2 {
-        font-size: 35px;
-        margin: 0 0 25px;
+        font-size: 25px;
+        margin: 0 0 14px;
+        max-width: 375px;
     }
     .h4 {
-        font-size: 17.5px;
+        font-size: 16px;
+        line-height: 1.57;
     }
     .hero-content-glow {
         top: -90px;
@@ -54,9 +67,12 @@
     .hero__image-glow {
         width: 900px;
         top: -80px;
-    }
+    }.hero__image .img { 
+	max-width: 530px;
+	margin: 0 auto;
+}
     .hero-section {
-        padding: 50px 0 20px;
+        padding: 30px 0 29px;
     }
 
     .psx i {
@@ -77,20 +93,166 @@
 }
 
 
+@media (max-width: 1399px) {
+
+.site-table.table tbody tr td p {
+	font-size: 13px;
+	line-height: 28px;
+}
+.site-table.table thead tr th {
+	font-size: 14px;
+	line-height: 29px;
+	padding: 14px 12px;
+}
+.site-table.table tbody tr td {
+	padding: 10px 10px;
+}
+.site-table.table tbody tr td a.border-btn {
+	font-size: 14px;
+}
+.site-table.table tbody tr td .border-wrap {
+	font-size: 14px;
+}
+.personal__statistics {
+	flex: 0 0 auto;
+	width: 340px;
+}
+.personal__statistic ul li span:last-child {
+	font-size: 14px;
+}
+
+
+    
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+.setting__item p {
+	font-size: 13px;
+	line-height: 20px;
+}
+.statistic-title {
+	font-size: 15px;
+	line-height: 27px;
+}
+.users__item_left img {
+	height: 45px;
+	width: 45px;
+}
+.users__item_left a {
+	font-size: 14px;
+	line-height: 29px;
+}
+.users__item_right {
+	text-align: end;
+	font-size: 13px;
+	line-height: 22px;
+}
+.setting__item p {
+	font-size: 13px;
+}
+.setting__item span.eth-border {
+	width: 84px;
+	font-size: 14px;
+}
+.users__item_left img {
+	height: 45px;
+	width: 45px;
+}
+.topToken__user {
+	padding-right: 13px;
+}
+.overall__user {
+	padding-left: 12px;
+}
+.overall__user_statistics ul li span:first-child {
+	font-size: 12px;
+	line-height: 20px;
+}
+.overall__user_statistics ul li span:last-child {
+	font-size: 12px;
+	line-height: 20px;
+}
+.overall__user_statistics ul li {
+	gap: 7px;
+}
+
+
+}
+
+
+
 @media (max-width: 1199px) {
- 
+ .h2 {
+	font-size: 25px;
+	margin: 0 0 14px;
+	max-width: 376px;
+}
+.personal__statistics {
+	width: 100%;
+}
+.statistics__week {
+	flex-wrap: wrap;
+    order: 3;
+}
+.topToken__user {
+	width: 100%;
+	height: auto;
+	padding-right: 0px;
+	border-right: 0px;
+	margin-bottom: 40px;
+}    
+.overall__user {
+	padding-left: 0px;
+	width: 100%;
+    height: auto;
+}   
+.site-table.table tbody tr td p {
+	font-size: 13px;
+	line-height: 21px;
+}  
+.site-table.table tbody tr td .border-wrap {
+	width: 113px;
+}  
+.statistic-title {
+	font-size: 15px;
+	line-height: 25px;
+}
+.site-table.table thead tr th {
+	line-height: 20px;
+}
+.site-table.table {
+	width: 836px;
+}
+.statistics {
+	flex-wrap: wrap;
+}  
+.statistics__week {
+	order: 1;
+}
+.personal__statistics {
+	order: 2;
+}  
+
+
+
 }
 
 
 @media (max-width: 991px) {
     .hero__row {
         --bs-gutter-x: 40px;
-    }
+    }.hero__image .img { 
+	max-width: 450px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
     .hero-section {
-        padding: 50px 0 50px;
+        padding: 38px 0 55px;
     }
-    .hero__image .psx {
-        margin: 0 auto;
+     .psx {
+        background-color: rgba(14, 14, 14, 0.895);
+         bottom: 20px;
+         right: 17px
     }
     .hero-content .cont-blk {
         align-items: center;
@@ -100,20 +262,37 @@
         padding-right: 12px;
     }
     .h2 {
-        font-size: 30px;
-        margin: 0 0 22px;
+        font-size: 26px;
+        margin: 0 0 16px;
     }
     .h4 {
-        font-size: 16px;
-    }
+        font-size: 15px;
+        max-width: 500px;
+    }.hero-content .bottom-buttons {
+	margin: 25px 0 0;
+}
 
-    .footer-section__inner {
+    .footer-section__inner  {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        gap: 10px;
+        gap: 5px;
     }
-    
+    .default-button {
+	min-height: 42px;
+	padding: 4px 22px;
+	font-size: 15px;
+	gap: 10px;
+	border-radius: 4px;
+}
+.footer-section__inner  p{
+    font-size: 13px
+}
+.blurBox p {
+	line-height: 24.18px;
+}
+
+
 }
 
 
@@ -121,8 +300,55 @@
     .header__top__inner {
         flex-direction: column;
         align-items: center;
-        gap: 10px;
-    }
+        gap: 3px;
+    }.header__top__inner p{
+        font-size: 12px
+    }.hero__image .img {
+	max-width: 435px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding: 0 10px;
+}
+.users__item_left img {
+	height: 40px;
+	width: 40px;
+}
+.users__item_left a {
+	font-size: 14px;
+	line-height: 26px;
+}
+.overall__user_statistics ul li span:last-child {
+	font-size: 14px;
+	line-height: 27px;
+}
+.personal__statistic ul li span:last-child {
+	font-size: 14px;
+}
+.setting__item span.eth-border {
+	font-size: 14px;
+}
+.users__item_right {
+	font-size: 12px;
+	line-height: 20px;
+}
+.header__main.header__main__other {
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+.header__nav {
+	gap: 15px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.sectionBlk {
+	padding-top: 8px;
+	padding-bottom: 40px;
+}
+.users__item {
+	padding: 11px 0px;
+}
+
 }
 
 
