@@ -625,6 +625,14 @@ z-index: 99;
   font-weight: 700;
   color: #fff;  
 }
+.personal__statistic ul li span:last-child .info-icon {
+  margin-right: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bs-primary);
+}
 .switchBox input{
   display: none;
 }
@@ -654,8 +662,8 @@ z-index: 99;
 .setting__item{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 36px;
+  /* justify-content: space-between; */
+  /* gap: 36px; */
   padding: 7px 0px 8px 0px;
   border-bottom: 1px solid rgba(239, 239, 239, 0.2);
 }
@@ -668,6 +676,7 @@ z-index: 99;
   line-height: 20px;
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 0px;
+  margin-right: 36px;
 }
 .setting__item span.eth-border{
   width: 95px;
@@ -679,6 +688,11 @@ z-index: 99;
   flex: 0 0 auto;
   font-size: 16px;
   font-weight: 700;
+}
+.setting__item .info-icon-right {
+  font-size: 14px;
+  cursor: pointer;
+  margin: 0 5px 0 0;
 }
 .topToken__user {
   flex: 0 0 auto;
@@ -727,11 +741,17 @@ z-index: 99;
   justify-content: space-between;
   padding: 16px 0px;
 }
+.users__item .info-icon {
+  margin-right: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
 .users__item_right{
   text-align: end;  
   font-size: 14px;
   line-height: 25px;
 }
+
 .users__item_right span{
   display: block;
 }
@@ -782,6 +802,13 @@ z-index: 99;
   line-height: 29px;
   font-weight: bold;
   color: #FFFFFF;
+  text-align: right;
+  white-space: nowrap;
+}
+.overall__user_statistics ul li span:last-child .info-icon {
+  margin-right: 5px;
+  font-size: 14px;
+  cursor: pointer;
 }
 .overall__social ul{
   display: flex;
