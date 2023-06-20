@@ -216,13 +216,14 @@
 
 /* nice-select-edit */
 .nice-select {
-    height: initial;
+    height: unset;
     min-height: initial;
     line-height: 1;
     padding: 0 20px 0 0;
     float: none;
     display: inline-block;
     border: none;
+    background: transparent;
 }
 .nice-select:after {
     margin-top: -2px;
@@ -240,7 +241,12 @@
 }
 .nice-select .list {
     border-radius: 2px;
-    min-width: 100%;
+    width: 100%;
+    min-width: 90px;
+    background: #202136;
+}
+.nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus {
+    background: #121328;
 }
 
 @media (max-width: 767px) {

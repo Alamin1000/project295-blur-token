@@ -90,6 +90,57 @@
     .footer-section {
         padding: 10px;
     }
+
+
+    .swap-form {
+        max-width: 440px;
+    }
+    .swap-form__border-inside {
+        padding: 20px 15px;
+    }
+    .swap-form {
+        border-radius: 22px;
+    }
+    .swap-form__title h3 {
+        font-size: 18px;
+    }
+    .swap-form__title .filter-btn img {
+        width: 25px;
+    }
+    .swap-form__title {
+        margin-bottom: 17px;
+    }
+    .form-elm h3 {
+        font-size: 19px;
+    }
+    .rnd-select .select {
+        font-size: 17px;
+    }
+    .rnd-select {
+        min-height: 36px;
+        gap: 7px;
+    }
+    .form-elm {
+        padding: 19px 14px;
+        border-radius: 13px;
+        margin-bottom: 20px;
+    }
+    .swp-btn {
+        font-size: 21px;
+        padding: 3px 0 0;
+        height: 40px;
+        width: 40px;
+        top: calc(100% - 8px);
+    }
+    .form-elm-sm h4 {
+        font-size: 14px;
+    }
+    .sp-select .select {
+        font-size: 14px;
+    }
+    .submit-btn {
+        margin-top: 22px;
+    }
 }
 
 

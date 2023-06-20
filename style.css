@@ -923,3 +923,155 @@ z-index: 99;
 
 
 /* ==============-- Add page css new 30-04-2023-end============== */
+
+
+
+/* ==============-- swap-form-start ============== */
+.swap-form {
+  width: 100%;
+  max-width: 505px;
+  background: linear-gradient(to right, #fff, #2F3149, #2F3149, #fff);
+  padding: 1px;
+  /* backdrop-filter: blur(79.0741px); */
+  border-radius: 31.6296px;
+}
+.swap-form__border-inside {
+  padding: 30px 22px;
+  background: rgba(255, 255, 255, 0.1);
+  background: #2F3149;
+  border-radius: inherit;
+}
+.swap-form__title {
+  margin-bottom: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.swap-form__title h3 {
+  font-size: 21.55px;
+}
+.swap-form__title .filter-btn {
+
+}
+.swap-form__main {
+
+}
+.form-elm {
+  padding: 26px 19px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1.58588px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 25px;
+  position: relative;
+}
+.form-elm.form-elm--rdt {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.swp-btn {
+  font-size: 23px;
+  padding: 3px 0 0;
+  height: 48px;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #fff;
+  border-radius: 50%;
+  color: #0F81EC;
+  position: absolute;
+  top: calc(100% - 10px);
+  left: 50%;
+  transform: translate(-50%,0);
+}
+.form-elm h3 {
+  font-size: 22px;
+}
+.rnd-select {
+  min-height: 40px;
+  padding: 5px 12px 5px 5px;
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 300px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.rnd-select .icon {
+  display: flex;
+  width: 23px;
+  height: 24px;
+}
+.rnd-select .icon img {
+
+}
+.rnd-select .select {
+  font-size: 20px;
+}
+.rnd-select .select::after {
+  border-width: 1px;
+  height: 9px;
+  width: 9px;
+  margin-top: -5px;
+  border-color: #fff;
+  right: 2px;
+}
+.rnd-select .select .list {
+  margin-top: 10px;
+}
+.form-elm-sm {
+  padding: 11px 19px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1.58588px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-elm-sm h4 {
+  font-size: 17px;
+  font-weight: 400;
+}
+.form-elm-sm h4 .light {
+  color: rgba(255, 255, 255, 0.5);
+}
+.sp-select {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.sp-select::after {
+
+}
+.sp-select .icon {
+
+}
+.sp-select .icon img {
+
+}
+.sp-select .select {
+  font-size: 17px;
+  font-weight: 400;
+  display: flex;
+
+  align-items: center;
+}
+.sp-select .select::after {
+  border-width: 1px;
+  height: 9px;
+  width: 9px;
+  margin-top: -5px;
+  border-color: #fff;
+  right: 2px;
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: 30px;
+}
+/* ==============-- swap-form-end================= */
