@@ -110,7 +110,7 @@
     .swap-form__title {
         margin-bottom: 17px;
     }
-    .form-elm h3 {
+    .form-elm .input {
         font-size: 19px;
     }
     .rnd-select .select {

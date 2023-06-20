@@ -125,13 +125,13 @@ main {
   flex-direction: column;
 }
 
-@media (max-width: 1399px) and (min-width: 1200px) {
+@media (max-width: 1499px) and (min-width: 1200px) {
   .container {
     max-width: 1040px;
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1499px) {
   .container {
     max-width: 1274px;
   }
@@ -989,8 +989,14 @@ z-index: 99;
   left: 50%;
   transform: translate(-50%,0);
 }
-.form-elm h3 {
+.form-elm .input {
   font-size: 22px;
+  width: 0;
+  flex-grow: 1;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-weight: 700;
 }
 .rnd-select {
   min-height: 40px;
