@@ -242,7 +242,7 @@
 .nice-select .list {
     border-radius: 2px;
     width: 100%;
-    min-width: 90px;
+    min-width: 80px;
     background: #202136;
 }
 .nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus {

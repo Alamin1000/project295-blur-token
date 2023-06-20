@@ -1007,6 +1007,10 @@ z-index: 99;
   display: flex;
   align-items: center;
   gap: 8px;
+  opacity: 1;
+}
+.rnd-select .current {
+  color: #fff;
 }
 .rnd-select .icon {
   display: flex;
@@ -1055,7 +1059,7 @@ z-index: 99;
 
 }
 .sp-select .icon {
-
+  padding-bottom: 1px;
 }
 .sp-select .icon img {
 
@@ -1074,6 +1078,13 @@ z-index: 99;
   margin-top: -5px;
   border-color: #fff;
   right: 2px;
+}
+.sp-select .select .list {
+  margin-top: 10px;
+}
+.sp-select .select .list li {
+  font-size: 12px !important;
+  padding: 9px 12px !important;
 }
 
 .submit-btn {
